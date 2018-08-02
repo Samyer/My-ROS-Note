@@ -8,8 +8,8 @@ About Learning ROS notes and attention
     $ cd ~/catkin_ws/<br>
     $ catkin_make<br>
 出现如下错误：<br>
-![image1](https://img-blog.csdn.net/20170728103604158?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvSmExcjA=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
-![image2](https://img-blog.csdn.net/20170728103604158?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvSmExcjA=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![image1](https://img-blog.csdn.net/20170728103604158?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvSmExcjA=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)<br>
+![image2](https://img-blog.csdn.net/20170728103604158?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvSmExcjA=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)<br>
 解决过程：<br>
 这是由于系统的python编译器版本与ROS所用的python编译器版本不一致<br>
 比如：python版本为3.6而ROS用的是2.7<br>
