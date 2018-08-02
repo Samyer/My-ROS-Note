@@ -10,6 +10,25 @@ About Learning ROS notes and attention
 出现如下错误：<br>
 ![image1](https://img-blog.csdn.net/20170728103604158?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvSmExcjA=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)<br>
 ![image2](https://img-blog.csdn.net/20170728103604158?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvSmExcjA=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)<br>
+或这种错误<br>
+CMake Error at /opt/ros/kinetic/share/catkin/cmake/assert.cmake:17 (message):<br>
+  <br>
+<br>
+  Assertion failed: check for file existence, but filename<br>
+  (RT_LIBRARY-NOTFOUND) unset.  Message: RT Library<br>
+
+Call Stack (most recent call first):<br>
+  /opt/ros/kinetic/share/catkin/cmake/tools/rt.cmake:42 (assert_file_exists)<br>
+  /opt/ros/kinetic/share/catkin/cmake/all.cmake:147 (include)<br>
+  /opt/ros/kinetic/share/catkin/cmake/catkinConfig.cmake:20 (include)<br>
+  CMakeLists.txt:52 (find_package)<br>
+
+
+-- Configuring incomplete, errors occurred!<br>
+See also "/root/dev/catkin_ws/build/CMakeFiles/CMakeOutput.log".<br>
+See also "/root/dev/catkin_ws/build/CMakeFiles/CMakeError.log".<br>
+Invoking "cmake" failed<br>
+
 解决过程：<br>
 这是由于系统的python编译器版本与ROS所用的python编译器版本不一致<br>
 比如：python版本为3.6而ROS用的是2.7<br>
