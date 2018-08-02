@@ -12,8 +12,7 @@ About Learning ROS notes and attention
 ![image2](https://img-blog.csdn.net/20170728103604158?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvSmExcjA=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)<br>
 或这种错误<br>
 CMake Error at /opt/ros/kinetic/share/catkin/cmake/assert.cmake:17 (message):<br>
-  <br>
-<br>
+  
   Assertion failed: check for file existence, but filename<br>
   (RT_LIBRARY-NOTFOUND) unset.  Message: RT Library<br>
 
